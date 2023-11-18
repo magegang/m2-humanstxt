@@ -16,7 +16,7 @@ bin/magento se:up
 bin/magento ca:cl
 ```
 
-## How to schedule a new logo
+## Configuration
 
 * Go to `Store > Configuration > Magegang > Humans`
 * Add your humans content
