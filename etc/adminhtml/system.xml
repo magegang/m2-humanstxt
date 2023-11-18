@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magegang, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="humans" translate="label" type="text" sortOrder="20" showInDefault="1">
+            <class>separator-top</class>
+            <label>Humans</label>
+            <tab>magegang</tab>
+            <resource>Magegang_Humans::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1">
+                <label>General</label>
+                <field id="text" translate="label comment" type="textarea" sortOrder="10" showInDefault="1">
+                    <label>Text</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

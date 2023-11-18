@@ -1,0 +1,25 @@
+{
+    "name": "magegang/module-humans",
+    "description": "Add a humans.txt to your Magento",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magegang",
+            "email": "hi@magegang.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "magegang/module-core": "0.0.1"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magegang\\Humans\\": ""
+        }
+    }
+}
