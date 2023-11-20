@@ -34,4 +34,4 @@ bin/magento ca:cl
 
 ## Support
 
-If you have any problems using this module, please open an issue [here](https://github.com/magegang/m2-logo-config/issues/new).
+If you have any problems using this module, please open an issue [here](https://github.com/magegang/m2-humans/issues/new).
