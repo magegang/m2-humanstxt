@@ -28,7 +28,6 @@ class Humans extends AbstractBlock
      */
     private function addCredits(): string
     {
-        return
-        "/* THANKS */\n\rName: https://www.magegang.com";
+        return "/* THANKS */\n\rName: https://www.magegang.com";
     }
 }
