@@ -1,16 +1,16 @@
-# Add a humans.txt to your Magento
+# Add a humans.txt to your Magento 2 application
 
-This module enables you to add a humans.txt to your Magento application.
+This module enables you to add a humans.txt to your favorite ecommerce plateform.
 
 ## Setup
 
+### # Install the module package with Composer
+
+`composer require magegang/module-humans`
+
+### Launch standard Magento commands
+
 ```
-# Install the module package with Composer
-
-composer require magegang/module-humans
-
-# Launch standard Magento commands
-
 bin/magento mo:en Magegang_Humans
 bin/magento se:up
 bin/magento ca:cl
