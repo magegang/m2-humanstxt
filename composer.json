@@ -1,5 +1,5 @@
 {
-    "name": "magegang/module-humans",
+    "name": "magegang/module-humanstxt",
     "description": "Add a humans.txt to your Magento",
     "type": "magento2-module",
     "license": "MIT",
