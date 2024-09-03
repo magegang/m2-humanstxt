@@ -6,4 +6,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magegang_Humans', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Magegang_HumansTxt', __DIR__);

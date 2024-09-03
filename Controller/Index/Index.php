@@ -3,9 +3,10 @@
  * Copyright © Magegang All rights reserved.
  * See COPYING.txt for license details.
  */
+
 declare(strict_types=1);
 
-namespace Magegang\Humans\Controller\Index;
+namespace Magegang\HumansTxt\Controller\Index;
 
 use Magento\Framework\App\Action\HttpGetActionInterface;
 use Magento\Framework\View\Result\Page;
@@ -14,17 +15,14 @@ use Magento\Framework\View\Result\PageFactory;
 class Index implements HttpGetActionInterface
 {
     public function __construct(
-        protected PageFactory $resultPageFactory
+        private readonly PageFactory $resultPageFactory
     ) {
     }
 
-    /**
-     * @return \Magento\Framework\View\Result\Page
-     */
     public function execute(): Page
     {
         $resultPage = $this->resultPageFactory->create(true);
-        $resultPage->addHandle('humans_index_index');
+        $resultPage->addHandle('humanstxt_index_index');
         $resultPage->setHeader('Content-Type', 'text/plain');
         return $resultPage;
     }

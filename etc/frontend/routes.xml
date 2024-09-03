@@ -8,8 +8,8 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="humans" frontName="humans">
-            <module name="Magegang_Humans"/>
+        <route id="humanstxt" frontName="humanstxt">
+            <module name="Magegang_HumansTxt"/>
         </route>
     </router>
 </config>

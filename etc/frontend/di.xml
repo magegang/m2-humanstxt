@@ -11,7 +11,7 @@
         <arguments>
             <argument name="routerList" xsi:type="array">
                 <item name="humans" xsi:type="array">
-                    <item name="class" xsi:type="string">Magegang\Humans\Controller\Router</item>
+                    <item name="class" xsi:type="string">Magegang\HumansTxt\Controller\Router</item>
                     <item name="disable" xsi:type="boolean">false</item>
                     <item name="sortOrder" xsi:type="string">40</item>
                 </item>
@@ -19,6 +19,6 @@
         </arguments>
     </type>
     <type name="Magento\Framework\View\Page\Config\Renderer">
-        <plugin name="configRenderer" type="Magegang\Humans\Plugin\Framework\View\Page\Config\Renderer" />
+        <plugin name="configRenderer" type="Magegang\HumansTxt\Plugin\Framework\View\Page\Config\Renderer" />
     </type>
 </config>

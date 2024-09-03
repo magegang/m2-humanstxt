@@ -9,7 +9,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <virtualType name="humansResultPage" type="Magento\Framework\View\Result\Page">
         <arguments>
-            <argument name="template" xsi:type="string">Magegang_Humans::humans.phtml</argument>
+            <argument name="template" xsi:type="string">Magegang_HumansTxt::humans.phtml</argument>
         </arguments>
     </virtualType>
     <virtualType name="humansResultPageFactory" type="Magento\Framework\View\Result\PageFactory">
@@ -17,7 +17,7 @@
             <argument name="instanceName" xsi:type="string">humansResultPage</argument>
         </arguments>
     </virtualType>
-    <type name="Magegang\Humans\Controller\Index\Index">
+    <type name="Magegang\HumansTxt\Controller\Index\Index">
         <arguments>
             <argument name="resultPageFactory" xsi:type="object">humansResultPageFactory</argument>
         </arguments>

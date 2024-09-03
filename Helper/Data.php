@@ -3,9 +3,10 @@
  * Copyright © Magegang All rights reserved.
  * See COPYING.txt for license details.
  */
+
 declare(strict_types=1);
 
-namespace Magegang\Humans\Helper;
+namespace Magegang\HumansTxt\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 
@@ -14,7 +15,6 @@ class Data extends AbstractHelper
     /**
      * Add credits at the end of humans.txt.
      * Feel free to remove them if you deem it necessary using a Plugin.
-     * @return string
      */
     public function getCredits(): string
     {
